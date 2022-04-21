@@ -1,5 +1,3 @@
-<head>{% include head.html %}</head>
-
 # FSeq
 ## Download and Issue Tracker.
 
