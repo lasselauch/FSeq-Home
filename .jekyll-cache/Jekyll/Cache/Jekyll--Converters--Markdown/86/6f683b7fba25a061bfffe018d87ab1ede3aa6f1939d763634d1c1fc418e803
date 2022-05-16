@@ -1,13 +1,8 @@
----
-layout: default
-title: Home
----
-
-<!-- One -->
+I"o	<!-- One -->
 <section id="one" class="wrapper style2 special">
 	<header class="major">
 		<h2>Don't waste time searching through hundreds of folders.<br />
-		Have your files right under your fingertips.</h2>
+		Have your files right under your fingertips and act on them!</h2>
 	</header>
 	<ul class="icons major">
 		<li><span class="icon fa-camera-retro"><span class="label">Shoot</span></span></li>
@@ -51,3 +46,4 @@ title: Home
 		</section>
 	</div>
 </section>
+:ET

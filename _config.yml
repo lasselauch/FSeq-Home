@@ -1,6 +1,21 @@
+# Site settings
 title: FSeq
-description: FSeq's Download and Issue Tracker
-theme: jekyll-theme-cayman
+email: fseq@lauch.io
+description: Just a simple, single page responsive template brought to you by HTML5 UP.
+baseurl: "/fractal-jekyll-theme" # the subpath of your site, e.g. /blog
+url: "https://www.lasselauch.com/" # the base hostname & protocol for your site e.g. http://yvesespinosa.com
+download_button_url: "https://lasselauch.lemonsqueezy.com/checkout/buy/981edfe2-cf03-48f1-a77e-11e0574ac4ce "
 
-social_links:
-  twitter: lasse_lauch
+# Social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/lasselauch/FSeq-Home
+gitlab_url: 
+googleplus_url: 
+instagram_url:
+linkedin_url: 
+pinterest_url:
+twitter_url: https://twitter.com/lasse_lauch
+
+# Build settings
+markdown: kramdown

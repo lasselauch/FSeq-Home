@@ -1,9 +1,4 @@
----
-layout: default
-title: Home
----
-
-<!-- One -->
+I"_	<!-- One -->
 <section id="one" class="wrapper style2 special">
 	<header class="major">
 		<h2>Don't waste time searching through hundreds of folders.<br />
@@ -51,3 +46,4 @@ title: Home
 		</section>
 	</div>
 </section>
+:ET
