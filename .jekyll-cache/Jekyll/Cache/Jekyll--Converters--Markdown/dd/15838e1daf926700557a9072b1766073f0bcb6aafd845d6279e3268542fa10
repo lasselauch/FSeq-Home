@@ -1,13 +1,8 @@
----
-layout: default
-title: Home
----
-
-<!-- One -->
+I"Á	<!-- One -->
 <section id="one" class="wrapper style2 special">
 	<header class="major">
 		<h2>Don't waste time searching through hundreds of folders.<br />
-		Have your files right under your fingertips.</h2>
+		Greatly improve the workflow of importing files especially file sequences and highly nested hierarchies.</h2>
 	</header>
 	<ul class="icons major">
 		<li><span class="icon fa-camera-retro"><span class="label">Shoot</span></span></li>
@@ -36,7 +31,7 @@ title: Home
 		<section class="spotlight">
 			<div class="image"><img src="assets/images/pic03.jpg" alt="" /></div>
 			<div class="content">
-				<h3>IMPORT TO DIFFERENT TOOLS</h3>
+				<h3>Import to different tools</h3>
 				<p>Either you want to open that file in the standard program, or in your favorite viewer or dcc tool. Fseq got you covered.</p>
 			</div>
 		</section>
@@ -53,3 +48,4 @@ title: Home
 		</section>
 	</div>
 </section>
+:ET

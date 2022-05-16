@@ -1,8 +1,8 @@
-I":	<!-- One -->
+I"=	<!-- One -->
 <section id="one" class="wrapper style2 special">
 	<header class="major">
-		<h2>Sed ipsum magna lorem tempus amet<br />
-		vehicula et gravida elementum</h2>
+		<h2>Don't waste time searching through hundreds of folders.<br />
+		Have your files right under your fingertips.</h2>
 	</header>
 	<ul class="icons major">
 		<li><span class="icon fa-camera-retro"><span class="label">Shoot</span></span></li>
@@ -17,10 +17,10 @@
 		<section class="spotlight">
 			<div class="image"><img src="assets/images/pic01.jpg" alt="" /></div>
 			<div class="content">
-				<h3>Magna sed ultrices</h3>
-				<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
-			</div>
-		</section>
+				<h3>FILTERED SEARCH (recursively)</h3>
+				<p>Search through multiple subfolders for image sequences, or files based on a given filter.e.g. (*.c4d, *.hip*)
+			&lt;/div&gt;
+		&lt;/section&gt;
 		<section class="spotlight">
 			<div class="image"><img src="assets/images/pic02.jpg" alt="" /></div>
 			<div class="content">
@@ -44,6 +44,7 @@
 				<li><span class="icon fa-desktop"><span class="label">Adipiscing amet sapien</span></span></li>
 			</ul>
 		</section>
-	</div>
-</section>
+	&lt;/div&gt;
+&lt;/section&gt;
+</p></div></section></div></section>
 :ET

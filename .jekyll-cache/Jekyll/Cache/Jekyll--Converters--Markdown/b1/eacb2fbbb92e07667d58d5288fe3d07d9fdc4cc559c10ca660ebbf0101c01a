@@ -1,9 +1,4 @@
----
-layout: default
-title: Home
----
-
-<!-- One -->
+I"ø	<!-- One -->
 <section id="one" class="wrapper style2 special">
 	<header class="major">
 		<h2>Don't waste time searching through hundreds of folders.<br />
@@ -23,7 +18,7 @@ title: Home
 			<div class="image"><img src="assets/images/pic01.jpg" alt="" /></div>
 			<div class="content">
 				<h3>FILTERED SEARCH (recursively)</h3>
-				<p>Search through multiple subfolders for image sequences, or files based on a given filter. e.g. (*.c4d, *.hip*)</p>
+				<p>Search through multiple subfolders for image sequences, or files based on a given filter. e.g. (*.c4d, *.hip*)&lt;/br&gt;Greatly improve the workflow of importing files especially file sequences and highly nested hierarchies.</p>
 			</div>
 		</section>
 		<section class="spotlight">
@@ -36,7 +31,7 @@ title: Home
 		<section class="spotlight">
 			<div class="image"><img src="assets/images/pic03.jpg" alt="" /></div>
 			<div class="content">
-				<h3>IMPORT TO DIFFERENT TOOLS</h3>
+				<h3>Import to different tools</h3>
 				<p>Either you want to open that file in the standard program, or in your favorite viewer or dcc tool. Fseq got you covered.</p>
 			</div>
 		</section>
@@ -53,3 +48,4 @@ title: Home
 		</section>
 	</div>
 </section>
+:ET

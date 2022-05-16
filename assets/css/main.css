@@ -2359,10 +2359,11 @@
 			}
 
 		.image.phone {
+			filter: drop-shadow(0px 31px 94px rgba(0, 0, 0, 0.39)) drop-shadow(0px 9.34559px 28.3382px rgba(0, 0, 0, 0.25412)) drop-shadow(0px 3.88168px 11.7703px rgba(0, 0, 0, 0.195)) drop-shadow(0px 1.40393px 4.25707px rgba(0, 0, 0, 0.13588));
 			box-shadow: none;
 			border-radius: 0;
-			margin: 0 0 3em 0;
-			width: 13em;
+			margin: 0em 1.5em 0em 1.5em;
+			width: 70%;
 		}
 
 			.image.phone img {
@@ -2372,7 +2373,14 @@
 				width: 100%;
 			}
 
-			.image.phone .inner, .image.phone:before, .image.phone:after {
+			.image.phone .inner {
+				margin-top: 1em;
+				font-size: 1em;
+				opacity: 50%;
+				text-align: right;
+			}
+
+			/* .image.phone .inner, .image.phone:before, .image.phone:after {
 				display: block;
 				border: solid 2px rgba(255, 255, 255, 0.25);
 			}
@@ -2388,7 +2396,7 @@
 				}
 
 				.image.phone .inner:before {
-					top: -1.375em;
+					top: 1.375em;
 					margin-left: -1em;
 					width: 2em;
 					height: 0.25em;
@@ -2419,9 +2427,9 @@
 				height: 3.5em;
 				border-radius: 0 0 1em 1em;
 				border-top: 0;
-			}
+			} */
 
-	.image {
+	/* .image {
 		box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
 	}
 
@@ -2439,7 +2447,7 @@
 
 			.image.phone .inner:after {
 				border-color: #e6e6e6;
-			}
+			} */
 
 /* List */
 
@@ -2699,7 +2707,7 @@
 
 	header p {
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 1em 1em;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -3189,7 +3197,8 @@
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
 					box-shadow: none;
-					background-color: #2A82DA;
+					/* background-color: #2A82DA; */
+					background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%);
 					color: #ffffff !important;
 				}
 
@@ -3627,7 +3636,8 @@
 /* Header */
 
 	#header {
-		background-color: #2A82DA;
+		/* background-color: #2A82DA; */
+		background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%);
 		color: #d0e4f8;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
@@ -3642,7 +3652,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+		/* background-image: url("images/overlay.png"), url("images/pattern-size1.svg"); */
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
@@ -3761,7 +3771,7 @@
 			color: #b5d5f4;
 		}
 
-		#header .image {
+		/* #header .image{
 			box-shadow: 0 0 0 4px #2A82DA, 0 0 0 5px rgba(255, 255, 255, 0.25);
 		}
 
@@ -3779,7 +3789,7 @@
 
 				#header .image.phone .inner:after {
 					border-color: rgba(255, 255, 255, 0.25);
-				}
+				} */
 
 		#header ul.alt > li {
 			border-top-color: rgba(255, 255, 255, 0.25);
@@ -3900,7 +3910,8 @@
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size2.svg");
+				/* background-image: url("images/overlay.png"), url("images/pattern-size2.svg"); */
+				background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%);
 			}
 
 		}
@@ -3943,8 +3954,13 @@
 
 		@media screen and (max-width: 736px) {
 
+			#header .image.phone .inner {
+				opacity: 0;
+			}
+
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
+				/* background-image: url("images/overlay.png"), url("images/pattern-size3.svg"); */
+				background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%);
 			}
 
 				#header h1 {
@@ -3959,7 +3975,9 @@
 		}
 
 		@media screen and (max-width: 736px) and (orientation: landscape) {
-
+			#header .image.phone .inner {
+				opacity: 0;
+			}
 			#header {
 				padding: 2em 2em 0.1em 2em ;
 			}
@@ -3970,8 +3988,8 @@
 
 				#header .image {
 					font-size: 0.8em;
-					width: 15em;
-					max-width: 20vw;
+					/* width: 15em; */
+					/* max-width: 20vw; */
 				}
 
 					#header .image .inner, #header .image:before, #header .image:after {
@@ -3981,6 +3999,10 @@
 		}
 
 		@media screen and (max-width: 736px) and (orientation: portrait) {
+			
+			#header .image.phone .inner {
+				opacity: 0;
+			}
 
 			#header {
 				padding: 3em 1.5em 1em 1.5em ;
@@ -3994,6 +4016,10 @@
 		}
 
 	@media screen and (max-width: 480px) and (orientation: landscape) {
+
+		#header .image.phone .inner {
+			opacity: 0;
+		}
 
 		#header {
 			padding: 2em 1.5em 0.1em 1.5em ;
@@ -4010,6 +4036,10 @@
 	}
 
 	@media screen and (max-width: 480px) and (orientation: portrait) {
+
+		#header .image.phone .inner {
+			opacity: 0;
+		}
 
 		#header {
 			padding: 2em 1em 0.1em 1em ;
@@ -4042,6 +4072,10 @@
 			}
 
 	@media screen and (max-width: 980px) and (orientation: portrait) {
+
+		#header .image.phone .inner {
+			opacity: 0;
+		}
 
 		body.is-loading #header .content {
 			-moz-transform: none;

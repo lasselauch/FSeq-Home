@@ -1,9 +1,4 @@
----
-layout: default
-title: Home
----
-
-<!-- One -->
+I"É<!-- One -->
 <section id="one" class="wrapper style2 special">
 	<header class="major">
 		<h2>Don't waste time searching through hundreds of folders.<br />
@@ -36,20 +31,19 @@ title: Home
 		<section class="spotlight">
 			<div class="image"><img src="assets/images/pic03.jpg" alt="" /></div>
 			<div class="content">
-				<h3>IMPORT TO DIFFERENT TOOLS</h3>
+				<h3>Import to different tools</h3>
 				<p>Either you want to open that file in the standard program, or in your favorite viewer or dcc tool. Fseq got you covered.</p>
 			</div>
 		</section>
 		<section class="special">
 			<ul class="icons labeled">
-				<li><span class="icon fa-code"><span class="label">Recursive filtered search</span></span></li>
 				<li><span class="icon fa-cloud"><span class="label">Browse Image Sequences</span></span></li>
+				<li><span class="icon fa-code"><span class="label">Recursive filtered search</span></span></li>
 				<li><span class="icon fa-refresh"><span class="label">Show most recent files</span></span></li>
 				<li><span class="icon fa-camera-retro"><span class="label">Import to After Effects</span></span></li>
-				<li><span class="icon fa-eye"><span class="label">Open in Viewer</span></span></li>
 				<li><span class="icon fa-desktop"><span class="label">Detect missing or broken Sequences</span></span></li>
-				<li><span class="icon fa-bookmark"><span class="label">Save favorite folders</span></span></li>
 			</ul>
 		</section>
 	</div>
 </section>
+:ET

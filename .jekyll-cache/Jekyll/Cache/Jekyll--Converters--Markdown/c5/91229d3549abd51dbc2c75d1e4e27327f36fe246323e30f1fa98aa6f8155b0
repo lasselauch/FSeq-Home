@@ -1,9 +1,4 @@
----
-layout: default
-title: Home
----
-
-<!-- One -->
+I"9	<!-- One -->
 <section id="one" class="wrapper style2 special">
 	<header class="major">
 		<h2>Don't waste time searching through hundreds of folders.<br />
@@ -22,8 +17,8 @@ title: Home
 		<section class="spotlight">
 			<div class="image"><img src="assets/images/pic01.jpg" alt="" /></div>
 			<div class="content">
-				<h3>FILTERED SEARCH (recursively)</h3>
-				<p>Search through multiple subfolders for image sequences, or files based on a given filter. e.g. (*.c4d, *.hip*)</p>
+				<h3>FILTERED SEARCH (RECURSIVE)</h3>
+				<p>Search multiple subfolders and receive your search result, pretty much instantly! Search for image sequences, or files based on a given filter. e.g. (*.c4d, *.hip*)</p>
 			</div>
 		</section>
 		<section class="spotlight">
@@ -36,20 +31,19 @@ title: Home
 		<section class="spotlight">
 			<div class="image"><img src="assets/images/pic03.jpg" alt="" /></div>
 			<div class="content">
-				<h3>IMPORT TO DIFFERENT TOOLS</h3>
-				<p>Either you want to open that file in the standard program, or in your favorite viewer or dcc tool. Fseq got you covered.</p>
+				<h3>Aliquam sed magna</h3>
+				<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
 			</div>
 		</section>
 		<section class="special">
 			<ul class="icons labeled">
-				<li><span class="icon fa-code"><span class="label">Recursive filtered search</span></span></li>
-				<li><span class="icon fa-cloud"><span class="label">Browse Image Sequences</span></span></li>
-				<li><span class="icon fa-refresh"><span class="label">Show most recent files</span></span></li>
-				<li><span class="icon fa-camera-retro"><span class="label">Import to After Effects</span></span></li>
-				<li><span class="icon fa-eye"><span class="label">Open in Viewer</span></span></li>
-				<li><span class="icon fa-desktop"><span class="label">Detect missing or broken Sequences</span></span></li>
-				<li><span class="icon fa-bookmark"><span class="label">Save favorite folders</span></span></li>
+				<li><span class="icon fa-camera-retro"><span class="label">Ipsum lorem accumsan</span></span></li>
+				<li><span class="icon fa-refresh"><span class="label">Sed vehicula elementum</span></span></li>
+				<li><span class="icon fa-cloud"><span class="label">Elit fusce consequat</span></span></li>
+				<li><span class="icon fa-code"><span class="label">Lorem nullam tempus</span></span></li>
+				<li><span class="icon fa-desktop"><span class="label">Adipiscing amet sapien</span></span></li>
 			</ul>
 		</section>
 	</div>
 </section>
+:ET
