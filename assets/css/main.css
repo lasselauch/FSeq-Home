@@ -1841,7 +1841,7 @@
 	}
 
 		a:hover {
-			color: #4696e5;
+			color: #2A82DA;
 		}
 
 	strong, b {
@@ -2017,7 +2017,7 @@
 		button.special,
 		.button.special {
 			box-shadow: none;
-			background-color: #4696e5;
+			background-color: #2A82DA;
 			color: #ffffff !important;
 		}
 
@@ -2226,8 +2226,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4696e5;
-			box-shadow: 0 0 0 1px #4696e5;
+			border-color: #2A82DA;
+			box-shadow: 0 0 0 1px #2A82DA;
 		}
 
 	.select-wrapper:before {
@@ -2247,15 +2247,15 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #4696e5;
-		border-color: #4696e5;
+		background-color: #2A82DA;
+		border-color: #2A82DA;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #4696e5;
-		box-shadow: 0 0 0 1px #4696e5;
+		border-color: #2A82DA;
+		box-shadow: 0 0 0 1px #2A82DA;
 	}
 
 	::-webkit-input-placeholder {
@@ -2958,7 +2958,7 @@
 				}
 
 		.wrapper.style1 {
-			background-color: #4696e5;
+			background-color: #2A82DA;
 			color: #d0e4f8;
 		}
 
@@ -2995,7 +2995,7 @@
 				.wrapper.style1 .button.special {
 					box-shadow: none;
 					background-color: #ffffff;
-					color: #4696e5 !important;
+					color: #2A82DA !important;
 				}
 
 			.wrapper.style1 label {
@@ -3040,7 +3040,7 @@
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background-color: #ffffff;
 				border-color: #ffffff;
-				color: #4696e5;
+				color: #2A82DA;
 			}
 
 			.wrapper.style1 input[type="checkbox"]:focus + label:before,
@@ -3074,7 +3074,7 @@
 			}
 
 			.wrapper.style1 .image {
-				box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
+				box-shadow: 0 0 0 4px #2A82DA, 0 0 0 5px rgba(255, 255, 255, 0.25);
 			}
 
 				.wrapper.style1 .image.phone {
@@ -3189,7 +3189,7 @@
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
 					box-shadow: none;
-					background-color: #4696e5;
+					background-color: #2A82DA;
 					color: #ffffff !important;
 				}
 
@@ -3228,8 +3228,8 @@
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #4696e5;
-					box-shadow: 0 0 0 1px #4696e5;
+					border-color: #2A82DA;
+					box-shadow: 0 0 0 1px #2A82DA;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -3249,15 +3249,15 @@
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #4696e5;
-				border-color: #4696e5;
+				background-color: #2A82DA;
+				border-color: #2A82DA;
 				color: #ffffff;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
 			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #4696e5;
-				box-shadow: 0 0 0 1px #4696e5;
+				border-color: #2A82DA;
+				box-shadow: 0 0 0 1px #2A82DA;
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
@@ -3342,7 +3342,7 @@
 			}
 
 				.wrapper.style2 a:hover {
-					color: #4696e5;
+					color: #2A82DA;
 				}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -3403,7 +3403,7 @@
 				.wrapper.style3 button.special,
 				.wrapper.style3 .button.special {
 					box-shadow: none;
-					background-color: #4696e5;
+					background-color: #2A82DA;
 					color: #ffffff !important;
 				}
 
@@ -3442,8 +3442,8 @@
 				.wrapper.style3 input[type="email"]:focus,
 				.wrapper.style3 select:focus,
 				.wrapper.style3 textarea:focus {
-					border-color: #4696e5;
-					box-shadow: 0 0 0 1px #4696e5;
+					border-color: #2A82DA;
+					box-shadow: 0 0 0 1px #2A82DA;
 				}
 
 			.wrapper.style3 .select-wrapper:before {
@@ -3463,15 +3463,15 @@
 
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
-				background-color: #4696e5;
-				border-color: #4696e5;
+				background-color: #2A82DA;
+				border-color: #2A82DA;
 				color: #ffffff;
 			}
 
 			.wrapper.style3 input[type="checkbox"]:focus + label:before,
 			.wrapper.style3 input[type="radio"]:focus + label:before {
-				border-color: #4696e5;
-				box-shadow: 0 0 0 1px #4696e5;
+				border-color: #2A82DA;
+				box-shadow: 0 0 0 1px #2A82DA;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3556,7 +3556,7 @@
 			}
 
 				.wrapper.style3 a:hover {
-					color: #4696e5;
+					color: #2A82DA;
 				}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -3627,7 +3627,7 @@
 /* Header */
 
 	#header {
-		background-color: #4696e5;
+		background-color: #2A82DA;
 		color: #d0e4f8;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
@@ -3683,7 +3683,7 @@
 			#header .button.special {
 				box-shadow: none;
 				background-color: #ffffff;
-				color: #4696e5 !important;
+				color: #2A82DA !important;
 			}
 
 		#header label {
@@ -3728,7 +3728,7 @@
 		#header input[type="radio"]:checked + label:before {
 			background-color: #ffffff;
 			border-color: #ffffff;
-			color: #4696e5;
+			color: #2A82DA;
 		}
 
 		#header input[type="checkbox"]:focus + label:before,
@@ -3762,7 +3762,7 @@
 		}
 
 		#header .image {
-			box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
+			box-shadow: 0 0 0 4px #2A82DA, 0 0 0 5px rgba(255, 255, 255, 0.25);
 		}
 
 			#header .image.phone {
@@ -4094,7 +4094,7 @@
 		}
 
 			#footer a:hover {
-				color: #4696e5;
+				color: #2A82DA;
 			}
 
 		#footer strong, #footer b {
