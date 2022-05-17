@@ -6,23 +6,24 @@ title: Home
 <!-- One -->
 <section id="one" class="wrapper style2 special">
 	<header class="major">
-		<h2>Don't waste time searching through hundreds of folders.<br />
-		Have your files right under your fingertips.</h2>
+	    <h1><a href="#features">{% include logo.html %}</a></h1>
+		<h2><u style="color:#F27011;">Don't waste time searching</u> through hundreds of folders.<br />
+		Have the files you're looking for under your fingertips.</h2>
 	</header>
-	<ul class="icons major">
+	<!-- <ul class="icons major">
 		<li><span class="icon fa-camera-retro"><span class="label">Shoot</span></span></li>
 		<li><span class="icon fa-refresh"><span class="label">Process</span></span></li>
 		<li><span class="icon fa-cloud"><span class="label">Upload</span></span></li>
-	</ul>
+	</ul> -->
 </section>
 
 <!-- Two -->
-<section id="two" class="wrapper">
+<section id="features" class="wrapper">
 	<div class="inner alt">
 		<section class="spotlight">
 			<div class="image"><img src="assets/images/pic01.jpg" alt="" /></div>
 			<div class="content">
-				<h3>FILTERED SEARCH (recursively)</h3>
+				<h3>RECURSIVE & FILTERED SEARCH</h3>
 				<p>Search through multiple subfolders for image sequences, or files based on a given filter. e.g. (*.c4d, *.hip*)</p>
 			</div>
 		</section>

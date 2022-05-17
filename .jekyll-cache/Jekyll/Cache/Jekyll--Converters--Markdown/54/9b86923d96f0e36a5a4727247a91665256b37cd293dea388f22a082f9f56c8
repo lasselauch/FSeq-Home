@@ -1,0 +1,63 @@
+I"j<!-- One -->
+<section id="one" class="wrapper style2 special">
+	<header class="major">
+	    <h1><a href="#features"><svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 28C0 12.536 12.536 0 28 0H100C115.464 0 128 12.536 128 28V100C128 115.464 115.464 128 100 128H28C12.536 128 0 115.464 0 100V28Z" fill="url(#paint0_linear_209_348)" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M100 84.6595C99.3792 85.8994 98.6597 87.0813 97.8517 88.1949L99.7274 90.0706C99.367 91.4154 98.6584 92.6553 97.6569 93.6569C96.6553 94.6584 95.4154 95.367 94.0706 95.7274L92.1949 93.8517C91.0813 94.6597 89.8994 95.3792 88.6595 96H66.0072C57.7019 91.8419 52 83.2535 52 73.3333C52 59.3421 63.3421 48 77.3333 48C87.2535 48 95.8419 53.7019 100 62.0072V84.6595ZM100 48.8927C94.0523 43.3741 86.0868 40 77.3333 40C58.9238 40 44 54.9238 44 73.3333C44 82.0868 47.3741 90.0523 52.8927 96H28C25.8783 96 23.8434 95.1571 22.3431 93.6569C20.8429 92.1566 20 90.1217 20 88V32C20 29.8783 20.8429 27.8434 22.3431 26.3431C23.8434 24.8429 25.8783 24 28 24H48L56 36H92C94.1217 36 96.1566 36.8429 97.6569 38.3431C99.1571 39.8434 100 41.8783 100 44V48.8927ZM89.5715 85.5715C89.6702 85.4728 89.7727 85.3804 89.8786 85.2941C92.8452 82.1835 94.6667 77.9711 94.6667 73.3333C94.6667 63.7604 86.9063 56 77.3333 56C67.7604 56 60 63.7604 60 73.3333C60 82.9063 67.7604 90.6667 77.3333 90.6667C81.9711 90.6667 86.1835 88.8452 89.2941 85.8786C89.3804 85.7727 89.4728 85.6702 89.5715 85.5715Z" fill="white" fill-opacity="0.5" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M60 73.3333C60 63.7604 67.7604 56 77.3333 56C86.9063 56 94.6667 63.7604 94.6667 73.3333C94.6667 77.9711 92.8452 82.1835 89.8786 85.2941C89.7727 85.3804 89.6702 85.4728 89.5715 85.5715C89.4728 85.6702 89.3804 85.7727 89.2941 85.8786C86.1835 88.8452 81.9711 90.6667 77.3333 90.6667C67.7604 90.6667 60 82.9063 60 73.3333ZM92.1949 93.8517C88.0203 96.8806 82.8854 98.6667 77.3333 98.6667C63.3421 98.6667 52 87.3245 52 73.3333C52 59.3421 63.3421 48 77.3333 48C91.3245 48 102.667 59.3421 102.667 73.3333C102.667 78.8854 100.881 84.0203 97.8517 88.1949L106.828 97.1715C108.39 98.7336 108.39 101.266 106.828 102.828C105.266 104.39 102.734 104.39 101.171 102.828L92.1949 93.8517Z" fill="white" />
+<path d="M38.6744 51.4163L38.9017 45.1663L33.6176 48.5186L32.254 46.1322L37.8222 43.2345L32.254 40.3367L33.6176 37.9504L38.9017 41.3026L38.6744 35.0526H41.4017L41.1744 41.3026L46.4585 37.9504L47.8222 40.3367L42.254 43.2345L47.8222 46.1322L46.4585 48.5186L41.1744 45.1663L41.4017 51.4163H38.6744Z" fill="white" />
+<defs>
+<linearGradient id="paint0_linear_209_348" x1="64" y1="0" x2="64" y2="128" gradientUnits="userSpaceOnUse">
+<stop stop-color="#66BBFF" />
+<stop offset="1" stop-color="#0C43D1" />
+</linearGradient>
+</defs>
+</svg>    </a></h1>
+		<h2><u style="color:#F27011;">Don't waste time searching</u> through hundreds of folders.<br />
+		Have the files you're looking for under your fingertips.</h2>
+	</header>
+	<!-- <ul class="icons major">
+		<li><span class="icon fa-camera-retro"><span class="label">Shoot</span></span></li>
+		<li><span class="icon fa-refresh"><span class="label">Process</span></span></li>
+		<li><span class="icon fa-cloud"><span class="label">Upload</span></span></li>
+	</ul> -->
+</section>
+
+<!-- Two -->
+<section id="features" class="wrapper">
+	<div class="inner alt">
+		<section class="spotlight">
+			<div class="image"><img src="assets/images/pic01.jpg" alt="" /></div>
+			<div class="content">
+				<h3>RECURSIVE &amp; FILTERED SEARCH</h3>
+				<p>Search through multiple subfolders for image sequences, or files based on a given filter. e.g. (*.c4d, *.hip*)</p>
+			</div>
+		</section>
+		<section class="spotlight">
+			<div class="image"><img src="assets/images/pic02.jpg" alt="" /></div>
+			<div class="content">
+				<h3>Ultrices nullam aliquam</h3>
+				<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+			</div>
+		</section>
+		<section class="spotlight">
+			<div class="image"><img src="assets/images/pic03.jpg" alt="" /></div>
+			<div class="content">
+				<h3>IMPORT TO DIFFERENT TOOLS</h3>
+				<p>Either you want to open that file in the standard program, or in your favorite viewer or dcc tool. Fseq got you covered.</p>
+			</div>
+		</section>
+		<section class="special">
+			<ul class="icons labeled">
+				<li><span class="icon fa-code"><span class="label">Recursive filtered search</span></span></li>
+				<li><span class="icon fa-cloud"><span class="label">Browse Image Sequences</span></span></li>
+				<li><span class="icon fa-refresh"><span class="label">Show most recent files</span></span></li>
+				<li><span class="icon fa-camera-retro"><span class="label">Import to After Effects</span></span></li>
+				<li><span class="icon fa-eye"><span class="label">Open in Viewer</span></span></li>
+				<li><span class="icon fa-desktop"><span class="label">Detect missing or broken Sequences</span></span></li>
+				<li><span class="icon fa-bookmark"><span class="label">Save favorite folders</span></span></li>
+			</ul>
+		</section>
+	</div>
+</section>
+:ET
