@@ -28,17 +28,17 @@ title: Home
 			</div>
 		</section>
 		<section class="spotlight">
-			<div class="image"><img src="assets/images/pic02.jpg" alt="" /></div>
-			<div class="content">
-				<h3>Ultrices nullam aliquam</h3>
-				<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
-			</div>
-		</section>
-		<section class="spotlight">
 			<div class="image"><img src="assets/images/pic03.jpg" alt="" /></div>
 			<div class="content">
 				<h3>IMPORT TO DIFFERENT TOOLS</h3>
 				<p>Either you want to open that file in the standard program, or in your favorite viewer or dcc tool. Fseq got you covered.</p>
+			</div>
+		</section>
+		<section class="spotlight">
+			<div class="image"><img src="assets/images/fseq_dated_folder.png" alt="" /></div>
+			<div class="content">
+				<h3>OTHER NEAT FEATURES....</h3>
+				<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
 			</div>
 		</section>
 		<section class="special">

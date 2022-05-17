@@ -1943,7 +1943,8 @@
 		input[type="button"].icon,
 		button.icon,
 		.button.icon {
-			padding-left: 1.35em;
+			padding: 0em 1.35em 0 1.35em;
+			/* padding-left: 1.35em; */
 		}
 
 			input[type="submit"].icon:before,
@@ -2498,7 +2499,7 @@
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			/* padding-left: 0.5em; */
 		}
 
 		ul.alt {
@@ -2609,16 +2610,16 @@
 	}
 
 		ul.actions {
-			margin: 1em 0em 1em 0em;
+			margin: 0em 0em 1em 0em;
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
-		}
+		/* padding-top: 1em; */}
 
 			ul.actions li {
-				margin-bottom: 0.5em;
+				margin-bottom: 0.25em;
 				display: inline-block;
-				padding: 0 0.5em 0 0;
+				/* padding: 0.5em 0 0 0; */
 				vertical-align: middle;
 			}
 
@@ -2680,7 +2681,7 @@
 	@media screen and (max-width: 480px) and (orientation: portrait) {
 
 		ul.actions {
-			margin: 0 0 2em 0;
+			/* margin: 0 0 2em 0; */
 		}
 
 			ul.actions li {
@@ -2810,20 +2811,20 @@
 	}
 
 		.spotlight .image {
-			width: 30%;
-			border-radius: 100%;
-			margin: 0 3em 0 0;
+			width: 100%;
+			/* border-radius: 100%; */
+			margin: 0 2em 0 0;
 			display: block;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				/* border-radius: 100%; */
 				width: 100%;
 			}
 
 		.spotlight .content {
-			width: 70%;
+			width: 100%;
 		}
 
 			.spotlight .content > :last-child {
@@ -2838,7 +2839,7 @@
 		}
 
 			.spotlight:nth-child(2n) .image {
-				margin: 0 0 0 3em;
+				margin: 0 0 0 2em;
 			}
 
 			.spotlight:nth-child(2n) .content {
@@ -3660,6 +3661,10 @@
 
 	@media screen and (max-width: 480px) and (orientation: portrait) {
 
+		.button {
+			width: 100%;
+		}
+
 		.wrapper {
 			padding: 2em 1em 0.1em 1em ;
 		}
@@ -3802,6 +3807,11 @@
 
 		#header .icon {
 			color: #b5d5f4;
+		}
+
+		#header .image{
+			margin-left: 4em;
+			max-width: 65%;
 		}
 
 		/* #header .image{
