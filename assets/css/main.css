@@ -1609,7 +1609,12 @@
 	}
 
 /* Basic */
-	.big-drop-shadow{
+
+	.small-shadow {
+		filter: drop-shadow(0px 20px 40px rgba(5, 0, 80, 0.4)) drop-shadow(0px 4px 10px rgba(5, 0, 80, 0.1));
+	}
+
+	.big-shadow{
 		filter: drop-shadow(0px 40px 78px rgba(5, 0, 80, 0.6)) drop-shadow(0px 8px 12.675px rgba(5, 0, 80, 0.17625));
 	}
 

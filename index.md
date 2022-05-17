@@ -6,7 +6,7 @@ title: Home
 <!-- One -->
 <section id="one" class="wrapper style2 special">
 	<header class="major">
-	    <h1><a href="#features">{% include logo.html %}</a></h1>
+	    <h1><a href="#features" class="scrolly small-shadow">{% include logo.html %}</a></h1>
 		<h2><u style="color:#F27011;">Don't waste time searching</u> through hundreds of folders.<br />
 		Have the files you're looking for under your fingertips.</h2>
 	</header>
