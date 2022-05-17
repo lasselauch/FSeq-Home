@@ -46,9 +46,10 @@ title: Home
 				<li><span class="icon fa-code"><span class="label">Recursive filtered search</span></span></li>
 				<li><span class="icon fa-cloud"><span class="label">Browse Image Sequences</span></span></li>
 				<li><span class="icon fa-refresh"><span class="label">Show most recent files</span></span></li>
-				<li><span class="icon fa-camera-retro"><span class="label">Import to After Effects</span></span></li>
-				<li><span class="icon fa-eye"><span class="label">Open in Viewer</span></span></li>
+				<li><span class="icon fa-copy"><span class="label">Import to After Effects, Nuke</span><i>, Fusion ( soon )</i></span></li>
+				<li><span class="icon fa-eye"><span class="label">Open in default viewer</span></span></li>
 				<li><span class="icon fa-desktop"><span class="label">Detect missing or broken Sequences</span></span></li>
+				<li><span class="icon fa-toggle-on"><span class="label">Light/Dark Mode</span></span></li>
 				<li><span class="icon fa-bookmark"><span class="label">Save favorite folders</span></span></li>
 			</ul>
 		</section>

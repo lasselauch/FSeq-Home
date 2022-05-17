@@ -1610,6 +1610,10 @@
 
 /* Basic */
 
+	.big-drop-shadow{
+		filter: drop-shadow(0px 31px 94px rgba(0, 0, 0, 0.39)) drop-shadow(0px 9.34559px 28.3382px rgba(0, 0, 0, 0.25412)) drop-shadow(0px 3.88168px 11.7703px rgba(0, 0, 0, 0.195)) drop-shadow(0px 1.40393px 4.25707px rgba(0, 0, 0, 0.13588));
+	}
+
 	.gradient-text-blue {
 		background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%);
 		-webkit-background-clip: text;
@@ -2390,13 +2394,18 @@
 				display: block;
 				position: relative;
 				width: 100%;
+				/* width: 1264px; */
 			}
 
 			.image.phone .inner {
 				margin-top: 1em;
 				font-size: 1em;
-				opacity: 50%;
 				text-align: right;
+				color: #2A82DA;
+			}
+
+			.image.phone a{
+				color: white;
 			}
 
 			/* .image.phone .inner, .image.phone:before, .image.phone:after {
