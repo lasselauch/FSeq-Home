@@ -1610,6 +1610,29 @@
 
 /* Basic */
 
+	.text-orange {
+		color:#F27011;
+		/* font-weight: bold; */
+		font-style: oblique;
+;
+	}
+
+	._50percent{
+		opacity: 50%;
+	}
+
+	.text-blue-gradient{
+		font-weight: bold;
+		/* font-style: oblique; */
+		text-decoration: underline;
+		background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+
+	}
+
 	.small-shadow {
 		filter: drop-shadow(0px 20px 40px rgba(5, 0, 80, 0.4)) drop-shadow(0px 4px 10px rgba(5, 0, 80, 0.1));
 	}
@@ -1747,8 +1770,8 @@
 		}
 
 	h1 {
-		font-size: 2em;
-		line-height: 1.5em;
+		font-size: 2.5em;
+		line-height: .5em;
 	}
 
 	h2 {
@@ -1956,7 +1979,7 @@
 			input[type="button"].icon:before,
 			button.icon:before,
 			.button.icon:before {
-				margin-right: 0.5em;
+				margin-right: .5em;
 			}
 
 		input[type="submit"].fit,
@@ -2072,12 +2095,13 @@
 		margin: 0 0 2em 0;
 	}
 
-	label {
+	/* label {
 		display: block;
 		font-size: 0.9em;
 		font-weight: bold;
 		margin: 0 0 1em 0;
-	}
+
+	} */
 
 	input[type="text"],
 	input[type="password"],
@@ -2236,10 +2260,6 @@
 		opacity: 1.0;
 	}
 
-	label {
-		color: #828282;
-	}
-
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
@@ -2335,7 +2355,7 @@
 /* Image */
 
 	.image {
-		border-radius: 6px;
+		border-radius: .25em;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2343,7 +2363,7 @@
 	}
 
 		.image img {
-			border-radius: .5em;
+			border-radius: .25em;
 			/* border-radius: 6px; */
 			display: block;
 		}
@@ -2354,6 +2374,7 @@
 
 			.image.left img, .image.right img {
 				width: 100%;
+				height: auto;
 			}
 
 		.image.left {
@@ -2504,7 +2525,7 @@
 	}
 
 		ul li {
-			/* padding-left: 0.5em; */
+			padding-left: 0.5em;
 		}
 
 		ul.alt {
@@ -2521,6 +2542,7 @@
 				ul.alt li:first-child {
 					border-top: 0;
 					padding-top: 0;
+
 				}
 
 		ul.icons {
@@ -2565,18 +2587,19 @@
 			ul.icons.labeled li {
 				margin: 1em 0;
 				padding: 0 2em 0 0;
+				vertical-align: middle;
 			}
 
 				ul.icons.labeled li .icon:before {
-					vertical-align: middle;
 					font-size: 2.25rem;
 					margin-right: 0.5em;
+					vertical-align: middle;
 				}
 
 				ul.icons.labeled li .icon .label {
 					display: inline-block;
-					vertical-align: middle;
 					color: #999999;
+					vertical-align: middle;
 				}
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
@@ -2587,12 +2610,16 @@
 			margin-left: auto;
 			display: inline-block;
 			white-space: nowrap;
+			vertical-align: middle !important;
+
 		}
 
 			ul.icons.labeled li {
 				display: block;
 				padding: 0;
 				margin: 1.5em 0 0 0;
+				vertical-align: middle !important;
+
 			}
 
 				ul.icons.labeled li .icon:before {
@@ -2600,16 +2627,20 @@
 					display: block;
 					float: left;
 					margin-right: 0;
+					vertical-align: middle !important;
 				}
 
 				ul.icons.labeled li .icon:after {
 					content: '';
 					display: block;
 					clear: both;
+					vertical-align: middle !important;
+
 				}
 
 				ul.icons.labeled li:first-child {
 					margin-top: 0;
+					vertical-align: middle !important;
 				}
 
 	}
@@ -2619,6 +2650,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+
 		/* padding-top: 1em; */}
 
 			ul.actions li {
@@ -2630,15 +2662,21 @@
 
 				ul.actions li:last-child {
 					padding-right: 0;
+					vertical-align: middle !important;
+
 				}
 
 			ul.actions.small li {
 				padding: 0 0.5em 0 0;
+				vertical-align: middle;
+
 			}
 
 			ul.actions.vertical li {
 				display: block;
 				padding: 1em 0 0 0;
+				vertical-align: middle !important;
+
 			}
 
 				ul.actions.vertical li:first-child {
@@ -2647,6 +2685,8 @@
 
 				ul.actions.vertical li > * {
 					margin-bottom: 0;
+					vertical-align: middle !important;
+
 				}
 
 			ul.actions.vertical.small li {
@@ -2663,6 +2703,7 @@
 				padding: 0;
 				table-layout: fixed;
 				width: calc(100% + 1em);
+
 			}
 
 				ul.actions.fit li {
@@ -2694,6 +2735,7 @@
 				display: block;
 				text-align: center;
 				width: 100%;
+
 			}
 
 				ul.actions li:first-child {
@@ -2736,6 +2778,7 @@
 	ul.alt > li {
 		border-top-color: #e6e6e6;
 	}
+
 
 /* Section/Article */
 
@@ -2818,14 +2861,15 @@
 		.spotlight .image {
 			width: 100%;
 			/* border-radius: 100%; */
-			margin: 0 2em 0 0;
-			display: block;
+			margin: 0 1.5em 0 0;
+			/* display: block; */
 		}
 
 			.spotlight .image img {
 				display: block;
 				/* border-radius: 100%; */
-				width: 100%;
+				/* width: 10%; */
+				height: auto;
 			}
 
 		.spotlight .content {
