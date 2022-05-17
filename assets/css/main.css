@@ -1609,9 +1609,8 @@
 	}
 
 /* Basic */
-
 	.big-drop-shadow{
-		filter: drop-shadow(0px 31px 94px rgba(0, 0, 0, 0.39)) drop-shadow(0px 9.34559px 28.3382px rgba(0, 0, 0, 0.25412)) drop-shadow(0px 3.88168px 11.7703px rgba(0, 0, 0, 0.195)) drop-shadow(0px 1.40393px 4.25707px rgba(0, 0, 0, 0.13588));
+		filter: drop-shadow(0px 40px 78px rgba(5, 0, 80, 0.6)) drop-shadow(0px 8px 12.675px rgba(5, 0, 80, 0.17625));
 	}
 
 	.gradient-text-blue {
@@ -2339,7 +2338,8 @@
 	}
 
 		.image img {
-			border-radius: 6px;
+			border-radius: .5em;
+			/* border-radius: 6px; */
 			display: block;
 		}
 
@@ -2384,7 +2384,7 @@
 			}
 
 		.image.phone {
-			filter: drop-shadow(0px 31px 94px rgba(0, 0, 0, 0.39)) drop-shadow(0px 9.34559px 28.3382px rgba(0, 0, 0, 0.25412)) drop-shadow(0px 3.88168px 11.7703px rgba(0, 0, 0, 0.195)) drop-shadow(0px 1.40393px 4.25707px rgba(0, 0, 0, 0.13588));
+			filter: drop-shadow(0px 40px 78px rgba(5, 0, 80, 0.6)) drop-shadow(0px 8px 12.675px rgba(5, 0, 80, 0.17625));
 			margin: 0em 1.5em 0em 1.5em;
 			width: 100%;
 
@@ -2869,7 +2869,7 @@
 
 			.spotlight .image {
 				width: 100%;
-				max-width: 60%;
+				max-width: 80%;
 				margin: 0 0 2em 0 !important;
 			}
 
@@ -3927,10 +3927,10 @@
 			}
 
 		#header .image {
-			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-			transition: opacity 1s ease, transform 1s ease;
+			-moz-transition: opacity 0.75s ease, -moz-transform 0.75s ease;
+			-webkit-transition: opacity 0.75s ease, -webkit-transform 0.75s ease;
+			-ms-transition: opacity 0.75s ease, -ms-transform 0.75s ease;
+			transition: opacity 0.75s ease, transform 0.75s ease;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3939,14 +3939,14 @@
 		}
 
 			#header .image img {
-				-moz-transition: opacity 0.75s ease;
-				-webkit-transition: opacity 0.75s ease;
-				-ms-transition: opacity 0.75s ease;
-				transition: opacity 0.75s ease;
-				-moz-transition-delay: 0.75s;
-				-webkit-transition-delay: 0.75s;
-				-ms-transition-delay: 0.75s;
-				transition-delay: 0.75s;
+				-moz-transition: opacity 0.7s ease;
+				-webkit-transition: opacity 0.7s ease;
+				-ms-transition: opacity 0.7s ease;
+				transition: opacity 0.7s ease;
+				-moz-transition-delay: 0.7s;
+				-webkit-transition-delay: 0.7s;
+				-ms-transition-delay: 0.7s;
+				transition-delay: 0.7s;
 				opacity: 1;
 			}
 
