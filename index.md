@@ -28,7 +28,7 @@ title: Home
 			</div>
 		</section>
 		<section class="spotlight">
-			<div class="image"><img src="assets/images/pic03.jpg" alt="" /></div>
+			<div class="image"><img src="assets/images/fseq_export.png" alt="" /></div>
 			<div class="content">
 				<h3 class="text-blue-gradient">Open / Edit / Import to your tools</h3>
 				<p>Either you want to open that file in the standard program, or in your favorite viewer or dcc tool. Fseq got you covered.</p>
