@@ -2428,7 +2428,6 @@
 			}
 
 		.image.phone {
-			/* filter: drop-shadow(0px 40px 78px rgba(5, 0, 80, 0.6)) drop-shadow(0px 8px 12.675px rgba(5, 0, 80, 0.17625)); */
 			margin: 0em 1.5em 0em 1.5em;
 			width: 100%;
 
@@ -3723,6 +3722,9 @@
 	}
 
 	@media screen and (max-width: 480px) and (orientation: landscape) {
+		.image.phone{
+			filter: none;
+		}
 
 		.wrapper {
 			padding: 2em 1.5em 0.1em 1.5em ;
@@ -3731,6 +3733,10 @@
 	}
 
 	@media screen and (max-width: 480px) and (orientation: portrait) {
+
+		.image.phone{
+			filter: none;
+		}
 
 		.button {
 			width: 100%;
