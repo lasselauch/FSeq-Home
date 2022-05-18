@@ -1614,7 +1614,15 @@
 		color:#F27011;
 		/* font-weight: bold; */
 		font-style: oblique;
-;
+	}
+
+	.text-orange-bold {
+		color:#F27011;
+		font-weight: bold;
+	}
+
+	.text-bold{
+		font-weight: bold;
 	}
 
 	._50percent{
@@ -1624,7 +1632,6 @@
 	.text-blue-gradient{
 		font-weight: bold;
 		/* font-style: oblique; */
-		text-decoration: underline;
 		background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -1720,7 +1727,7 @@
 		font-family: Arial, Helvetica, sans-serif;
 		font-weight: normal;
 		line-height: 1.5em;
-		letter-spacing: -0.015em;
+		/* letter-spacing: -0.015em; */
 	}
 
 	a {
@@ -1746,13 +1753,15 @@
 
 	p {
 		margin: 0 0 2em 0;
+		/* letter-spacing: 0em; */
+
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: normal;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		letter-spacing: -0.0125em;
+		letter-spacing: -0.0075em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1910,6 +1919,15 @@
 	code {
 		background: rgba(144, 144, 144, 0.075);
 		border-color: #e6e6e6;
+		font-size: small;
+		vertical-align: middle;
+	}
+
+	.log-code {
+		background: transparent;
+		border: none;
+		font-size: medium;
+		font-weight: bold;
 	}
 
 	hr {
@@ -2515,6 +2533,8 @@
 
 		ol li {
 			padding-left: 0.25em;
+			letter-spacing: 0em;
+
 		}
 
 	ul {
@@ -2526,6 +2546,8 @@
 
 		ul li {
 			padding-left: 0.5em;
+			letter-spacing: 0em;
+
 		}
 
 		ul.alt {
@@ -2851,11 +2873,11 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		-moz-align-items: center;
+		/* -moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
-		align-items: center;
-		margin: 0 0 2em 0;
+		align-items: top; */
+		margin: 0 0 0 0;
 	}
 
 		.spotlight .image {

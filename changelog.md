@@ -1,32 +1,25 @@
 ---
-layout: log
+layout: changelog
 title: Changelog
 ---
+## __1.0.7__
 
-## 1.0.7 (Current Version)
-
-### May 16, 2022
-#### ✨ New
-- Lemon Squeezy License Framework
-- Website 
-
-##### 💎 Improvements
-- Overall structure
-
-##### 🐞Fixes
-- small fixes
+### __✨ New__
+Lemon Squeezy License Framework
+Website 
+### __💎 Improvements__
+Overall structure
+### __🐞Fixes__
+small fixes
 
 - - -
 
-## 1.0.6
-#### May 04, 2022
+## __1.0.6__
 
-##### ✨ New
-- Lemon Squeezy License Framework
-- Website 
-
-##### 💎 Improvements
-- Overall structure
-
-##### 🐞Fixes
-- small fixes
+### __✨ New__
+Lemon Squeezy License Framework
+Website 
+### __💎 Improvements__
+Overall structure
+### __🐞Fixes__
+small fixes
