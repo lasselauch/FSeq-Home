@@ -1,0 +1,4 @@
+docs/_site/
+.DS_Store
+docs/.jekyll-cache
+docs/archive
