@@ -1,4 +1,7 @@
-docs/_site/
 .DS_Store
+docs/_site/
 docs/.jekyll-cache
+docs/.jekyll-metadata
+docs/.sass-cache
+docs/vendor
 docs/archive
