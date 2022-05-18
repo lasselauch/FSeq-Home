@@ -2428,7 +2428,7 @@
 			}
 
 		.image.phone {
-			filter: drop-shadow(0px 40px 78px rgba(5, 0, 80, 0.6)) drop-shadow(0px 8px 12.675px rgba(5, 0, 80, 0.17625));
+			/* filter: drop-shadow(0px 40px 78px rgba(5, 0, 80, 0.6)) drop-shadow(0px 8px 12.675px rgba(5, 0, 80, 0.17625)); */
 			margin: 0em 1.5em 0em 1.5em;
 			width: 100%;
 

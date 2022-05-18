@@ -10,11 +10,6 @@ title: Home
 		<h2><u class="text-orange">Don't waste time searching</u> through hundreds of folders.<br />
 		Have the files you're looking for under your fingertips.</h2>
 	</header>
-	<!-- <ul class="icons major">
-		<li><span class="icon fa-camera-retro"><span class="label">Shoot</span></span></li>
-		<li><span class="icon fa-refresh"><span class="label">Process</span></span></li>
-		<li><span class="icon fa-cloud"><span class="label">Upload</span></span></li>
-	</ul> -->
 </section>
 
 <!-- Two -->
