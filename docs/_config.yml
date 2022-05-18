@@ -1,15 +1,15 @@
 # Site settings
-title: FSeq
-version: 0.1.7
-email: mail@getfseq.com
-description: A sequence and file browser that just works!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/lasselauch/FSeq-Home/" # the base hostname & protocol for your site e.g. http://yvesespinosa.com
+title:            FSeq
+version:          1.0.0
+email:            mail@getfseq.com
+description:      A sequence and file browser that just works!
+baseurl:          "" # the subpath of your site, e.g. /blog
+url:              "https://getfseq.com" # the base hostname & protocol for your site e.g. http://yvesespinosa.com
 mailto_bugreport: mailto:bug@getfseq.com?subject=%F0%9F%90%9E%20%5BBUGREPORT%5D%20via%20getfseq.com&body=Is%20there%20an%20exisiting%20issue%20for%20this%3F%20-%3E%20https%3A%2F%2Fgithub.com%2Flasselauch%2FFSeq-Home%2Fissues%0D%0A---%0D%0A%23%20YES%2FNO%20(%23ID)%0D%0A%0D%0A%0D%0ADescription%20of%20the%20bug%0D%0A---%0D%0A%23%20YOUR%20DESCRIPTION%20HERE%0D%0A%0D%0A%0D%0ASteps%20to%20reproduce%0D%0A---%0D%0A%23%20YOUR%20REPORT%20%26%20STEPS%20HERE%0D%0A%0D%0A%0D%0AWhich%20version%20of%20the%20app%20are%20you%20using%3F%0D%0A---%0D%0A%23%20YOUR%20VERSION%20HERE%0D%0A%0D%0A%0D%0AThanks%2C%0D%0A%23%20YOUR%20NAME%20%26%20LICENSE-OWNERS-EMAIL%20HERE
 
 # Social settings
-github_url: https://github.com/lasselauch/FSeq-Home
-twitter_url: https://twitter.com/lasse_lauch
+github_url:       https://github.com/lasselauch/FSeq-Home/issues
+twitter_url:      https://twitter.com/lasse_lauch
 
 # Build settings
 markdown: kramdown
