@@ -8,12 +8,12 @@ title: Home
       <h1><a href="#">{{ site.title }}</a></h1>
       <h2>A sequence and file browser&nbsp;<u>that just works!</u></h2>
       <ul class="actions">
-        <a href="https://lasselauch.lemonsqueezy.com/checkout/buy/97df2b03-e6e2-4af8-ac66-f3286a75501c?media=0&logo=0&embed=1" class="button special icon fa-download lemonsqueezy-button">Get Fseq</a><script src="https://app.lemonsqueezy.com/js/checkout.js" defer></script>
+        <a href="https://lasselauch.lemonsqueezy.com/checkout/buy/97df2b03-e6e2-4af8-ac66-f3286a75501c?media=0&logo=0&embed=1" class="button special icon fa-download lemonsqueezy-button">Get FSeq</a><script src="https://app.lemonsqueezy.com/js/checkout.js" defer></script>
         <li><a href="#features" class="button scrolly">Show Features</a></li>
       </ul>
     <h5 style="opacity: 50%;">{{ site.time | date_to_string: "ordinal" }} | v{{ site.version }} | <u>Windows & macOS</u></h5>
     </div>
-    <div class="image phone big-shadow"><img src="assets/images/fseq.png" alt="Fseq. A sequence and file browser for Windows and macOS" />
+    <div class="image phone big-shadow"><img src="assets/images/fseq.png" alt="FSeq. A sequence and file browser for Windows and macOS" />
     <div class="inner">...from the developer of:&nbsp;&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://aescripts.com/aec4d/">AEC4D-PRO</a></div></div>
   </header>
 
@@ -41,8 +41,8 @@ title: Home
 			<div class="image"><img src="assets/images/fseq-export.png" alt="" /></div>
 			<div class="content">
 				<h3 class="text-bold"><span class="text-blue-gradient">Open / Edit / Import</span> to your tools</h3>
-				<p>Open files in their standard program, <span class="text-bold">copy/paste sequences</span> into After Effects/Nuke or view directly in your favorite viewer.
-				<span class="text-orange-bold">Fseq got you covered.</span></p>
+				<p>Open files in their standard program, <span class="text-bold">copy/paste sequences</span> into After Effects/Nuke or view directly in your favorite viewer.<br />
+				<span class="text-orange-bold">FSeq got you covered.</span></p>
 			</div>
 		</section>
 		<section class="spotlight">
