@@ -2,15 +2,14 @@
 layout: changelog
 title: Changelog
 ---
-## __1.0.0__
+## __0.1.8__
 
 ### __✨ New__
 #### Release Candidate
-#### Lemon Squeezy License Framework
 #### Website
 
 ### __💎 Improvements__
 #### Overall structure
 
 ### __🐞 Fixes__
-#### small fixes
+#### small bug fixes
