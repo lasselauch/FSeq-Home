@@ -11,7 +11,7 @@ title: Home
         <a href="https://lasselauch.lemonsqueezy.com/checkout/buy/97df2b03-e6e2-4af8-ac66-f3286a75501c?media=0&logo=0&embed=1" class="button special icon fa-download lemonsqueezy-button">Get FSeq</a><script src="https://app.lemonsqueezy.com/js/checkout.js" defer></script>
         <li><a href="#features" class="button scrolly">Show Features</a></li>
       </ul>
-    <h5 style="opacity: 50%;">{{ site.time | date_to_string: "ordinal" }} | v{{ site.version }} | <u>Windows 10 & macOS 10.14</u></h5>
+    <h5 style="opacity: 50%;">{{ site.time | date_to_string: "ordinal" }} | v{{ site.version }} | <u>Windows 10</u></h5>
     </div>
     <div class="image phone big-shadow"><img src="assets/images/fseq.png" alt="FSeq. A sequence and file browser for Windows and macOS" />
     <div class="inner">...from the developer of:&nbsp;&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://aescripts.com/aec4d/">AEC4D-PRO</a></div></div>
@@ -50,7 +50,7 @@ title: Home
 			<div class="content">
 				<h3 class="text-bold">Other neat features....</h3>
 				<ul>
-				<li>Create (YYMMDD) folder 🠒 <span class="text-blue-gradient">"{{ site.time | date: "%y%m%d" }}"</span></li>
+				<li>Create (YYMMDD) folder 👉 <span class="text-blue-gradient">"{{ site.time | date: "%y%m%d" }}"</span></li>
 				<li>Light/Dark mode</li>
 				<li>Simple <span class="text-orange-bold">BUT</span> useful Settings</li>
 				</ul>
