@@ -2,6 +2,13 @@
 layout: changelog
 title: Changelog
 ---
+## __0.1.9__
+
+### __✨ New__
+#### Added macOS version
+
+---
+
 ## __0.1.8__
 
 ### __✨ New__
