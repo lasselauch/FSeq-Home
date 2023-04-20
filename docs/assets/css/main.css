@@ -4176,7 +4176,7 @@
 			-webkit-transform: translateX(2em);
 			-ms-transform: translateX(2em);
 			transform: translateX(2em);
-			opacity: 0;
+			/* opacity: 0; */
 		}
 
 		body.is-loading #header .image {
@@ -4184,7 +4184,7 @@
 			-webkit-transform: translateY(4em);
 			-ms-transform: translateY(4em);
 			transform: translateY(4em);
-			opacity: 0;
+			/* opacity: 0; */
 		}
 
 			body.is-loading #header .image img {
