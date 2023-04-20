@@ -3986,10 +3986,10 @@
 			}
 
 		#header .content {
-			-moz-transition: opacity 0.5s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 0.5s ease, -ms-transform 1s ease;
-			transition: opacity 0.5s ease, transform 1s ease;
+			/* -moz-transition: opacity 0.5s ease, -moz-transform 1s ease; */
+			/* -webkit-transition: opacity 0.5s ease, -webkit-transform 1s ease; */
+			/* -ms-transition: opacity 0.5s ease, -ms-transform 1s ease; */
+			/* transition: opacity 0.5s ease, transform 1s ease; */
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
@@ -4004,10 +4004,10 @@
 			}
 
 		#header .image {
-			-moz-transition: opacity 0.75s ease, -moz-transform 0.75s ease;
-			-webkit-transition: opacity 0.75s ease, -webkit-transform 0.75s ease;
-			-ms-transition: opacity 0.75s ease, -ms-transform 0.75s ease;
-			transition: opacity 0.75s ease, transform 0.75s ease;
+			/* -moz-transition: opacity 0.75s ease, -moz-transform 0.75s ease; */
+			/* -webkit-transition: opacity 0.75s ease, -webkit-transform 0.75s ease; */
+			/* -ms-transition: opacity 0.75s ease, -ms-transform 0.75s ease; */
+			/* transition: opacity 0.75s ease, transform 0.75s ease; */
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -4016,14 +4016,14 @@
 		}
 
 			#header .image img {
-				-moz-transition: opacity 0.7s ease;
-				-webkit-transition: opacity 0.7s ease;
-				-ms-transition: opacity 0.7s ease;
-				transition: opacity 0.7s ease;
-				-moz-transition-delay: 0.7s;
-				-webkit-transition-delay: 0.7s;
-				-ms-transition-delay: 0.7s;
-				transition-delay: 0.7s;
+				/* -moz-transition: opacity 0.7s ease; */
+				/* -webkit-transition: opacity 0.7s ease; */
+				/* -ms-transition: opacity 0.7s ease; */
+				/* transition: opacity 0.7s ease; */
+				/* -moz-transition-delay: 0.7s; */
+				/* -webkit-transition-delay: 0.7s; */
+				/* -ms-transition-delay: 0.7s; */
+				/* transition-delay: 0.7s; */
 				opacity: 1;
 			}
 
