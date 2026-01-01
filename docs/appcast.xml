@@ -6,18 +6,6 @@
     <description>Most recent updates to FSeq</description>
     <language>en</language>
     <item>
-      <title>Version 0.3.0</title>
-      <sparkle:version>0.3.0</sparkle:version>
-      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-      <pubDate>Thu, 01 Jan 2026 22:12:37 +0000</pubDate>
-      <description><![CDATA[
-<h2>FSeq 0.3.0</h2>
-<p>See GitHub release for details.</p>
-]]></description>
-      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.3.0/FSeq_0.3.0_unsigned.dmg" sparkle:os="macos" sparkle:edSignature="" length="125550176" type="application/octet-stream" />
-      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.3.0/FSeq_0.3.0_Setup.exe" sparkle:os="windows" sparkle:edSignature="" sparkle:installerArguments="/SILENT" length="118248994" type="application/octet-stream" />
-    </item>
-    <item>
       <title>Version 0.2.0</title>
       <sparkle:version>0.2.0</sparkle:version>
       <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
