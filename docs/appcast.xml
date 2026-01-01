@@ -6,14 +6,46 @@
     <description>Most recent updates to FSeq</description>
     <language>en</language>
     <item>
+      <title>Version 0.2.0</title>
+      <sparkle:version>0.2.0</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <pubDate>Thu, 01 Jan 2026 22:49:43 +0000</pubDate>
+      <description><![CDATA[
+<h2>What's New in FSeq 0.2.0</h2>
+<h3>Features</h3>
+<ul>
+  <li>Redesigned Renamer with PowerRename-inspired UI</li>
+  <li>Vertical split layout with collapsible sections</li>
+  <li>Token buttons for quick pattern insertion ($name, $date, $n, etc.)</li>
+  <li>Per-item checkboxes to exclude files from rename</li>
+  <li>Visual case buttons [Aa] [aa] [AA] [Aa Aa]</li>
+  <li>Wildcard support in search/replace</li>
+  <li>Token support in replace field</li>
+  <li>Undo support for rename operations (Ctrl+Z)</li>
+  <li>Session-based and persistent history</li>
+  <li>Store up to 20 operations for recovery after restart</li>
+  <li>Auto-Update system via Sparkle (macOS) and WinSparkle (Windows)</li>
+  <li>Check for Updates from tray menu and Help menu</li>
+  <li>Automatic background update checks</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+  <li>Enhanced license security framework</li>
+  <li>Preserve extension case in renamer</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.2.0/FSeq_0.2.0_unsigned.dmg" sparkle:os="macos" sparkle:edSignature="" length="125547788" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.2.0/FSeq_0.2.0_Setup.exe" sparkle:os="windows" sparkle:edSignature="" sparkle:installerArguments="/SILENT" length="118248887" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.3.0</title>
       <sparkle:version>0.3.0</sparkle:version>
       <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <pubDate>Thu, 01 Jan 2026 22:32:11 +0000</pubDate>
-      <description><![CDATA[
-<h2>FSeq 0.3.0</h2>
-<p>See GitHub release for details.</p>
-]]></description>
+      <description>
+&lt;h2&gt;FSeq 0.3.0&lt;/h2&gt;
+&lt;p&gt;See GitHub release for details.&lt;/p&gt;
+</description>
       <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.3.0/FSeq_0.3.0_unsigned.dmg" sparkle:os="macos" sparkle:edSignature="" length="125547248" type="application/octet-stream" />
       <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.3.0/FSeq_0.3.0_Setup.exe" sparkle:os="windows" sparkle:edSignature="" sparkle:installerArguments="/SILENT" length="118248732" type="application/octet-stream" />
     </item>
