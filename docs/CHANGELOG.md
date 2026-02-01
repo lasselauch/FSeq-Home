@@ -2,6 +2,30 @@
 layout: changelog
 title: Changelog
 ---
+## __0.1.92__
+
+### __✨ New__
+#### updater: Add comprehensive logging for debugging update issues
+
+### __🐞 Fixes__
+#### updater: Fix Sparkle 2.x API compatibility for macOS auto-updates
+#### updater: Add runtime symlink restoration for Sparkle.framework
+#### build: Fix version mismatch in CI builds by checking out tagged commits
+
+---
+
+## __0.1.91__
+
+### __✨ New__
+#### updater: Auto-update support via Sparkle (macOS) and WinSparkle (Windows)
+#### tray: Tray icon badge and dynamic menu for available updates
+
+### __🐞 Fixes__
+#### license: Add backward-compatible decryption for legacy key formats on ARM Macs
+#### updater: Use Sparkle 2.x API for macOS auto-updates
+
+---
+
 ## __0.3.1__
 
 ### __🐞 Fixes__
