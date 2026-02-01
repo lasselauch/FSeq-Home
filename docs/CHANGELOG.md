@@ -2,18 +2,6 @@
 layout: changelog
 title: Changelog
 ---
-## __0.3.1__
-
-### __🐞 Fixes__
-#### build: Add pyobjc and pywinsparkle for auto-update support
-#### macOS: Install pyobjc-core and pyobjc-framework-Cocoa for Sparkle integration - Windows: Install
-
----
-
-## __0.2.0__
-
----
-
 ## __0.3.0__
 
 ### __✨ New__
