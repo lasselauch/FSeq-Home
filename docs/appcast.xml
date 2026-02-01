@@ -6,28 +6,28 @@
     <description>Most recent updates to FSeq</description>
     <language>en</language>
     <item>
+      <title>Version 0.1.91</title>
+      <sparkle:version>0.1.91</sparkle:version>
+      <sparkle:shortVersionString>0.1.91</sparkle:shortVersionString>
+      <pubDate>Sun, 01 Feb 2026 19:14:47 +0000</pubDate>
+      <description><![CDATA[
+<h2>FSeq 0.1.91</h2>
+<p>See GitHub release for details.</p>
+]]></description>
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.91/FSeq_0.1.91_unsigned.dmg" sparkle:os="macos" sparkle:edSignature="" length="125518924" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.91/FSeq_0.1.91_Setup.exe" sparkle:os="windows" sparkle:edSignature="" sparkle:installerArguments="/SILENT" length="118256553" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.1.92</title>
       <sparkle:version>0.1.92</sparkle:version>
       <sparkle:shortVersionString>0.1.92</sparkle:shortVersionString>
       <pubDate>Sun, 01 Feb 2026 16:34:08 +0000</pubDate>
-      <description><![CDATA[
-<h2>FSeq 0.1.92</h2>
-<p>See GitHub release for details.</p>
-]]></description>
-      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.92/FSeq_0.1.92_unsigned.dmg" sparkle:os="macos" sparkle:edSignature="" length="126060447" type="application/octet-stream" />
-      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.92/FSeq_0.1.92_Setup.exe" sparkle:os="windows" sparkle:edSignature="" sparkle:installerArguments="/SILENT" length="118254890" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Version 0.1.91</title>
-      <sparkle:version>0.1.91</sparkle:version>
-      <sparkle:shortVersionString>0.1.91</sparkle:shortVersionString>
-      <pubDate>Sun, 01 Feb 2026 16:25:12 +0000</pubDate>
       <description>
-&lt;h2&gt;FSeq 0.1.91&lt;/h2&gt;
+&lt;h2&gt;FSeq 0.1.92&lt;/h2&gt;
 &lt;p&gt;See GitHub release for details.&lt;/p&gt;
 </description>
-      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.91/FSeq_0.1.91_unsigned.dmg" sparkle:os="macos" sparkle:edSignature="" length="126060501" type="application/octet-stream" />
-      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.91/FSeq_0.1.91_Setup.exe" sparkle:os="windows" sparkle:edSignature="" sparkle:installerArguments="/SILENT" length="118257076" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.92/FSeq_0.1.92_unsigned.dmg" sparkle:os="macos" sparkle:edSignature="" length="126060447" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.92/FSeq_0.1.92_Setup.exe" sparkle:os="windows" sparkle:edSignature="" sparkle:installerArguments="/SILENT" length="118254890" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
