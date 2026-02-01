@@ -5,42 +5,34 @@
     <link>https://getfseq.com/appcast.xml</link>
     <description>Most recent updates to FSeq</description>
     <language>en</language>
-
-    <!-- Test Release - Will be available once build completes -->
     <item>
       <title>Version 0.1.92</title>
       <sparkle:version>0.1.92</sparkle:version>
       <sparkle:shortVersionString>0.1.92</sparkle:shortVersionString>
-      <pubDate>Sat, 01 Feb 2026 14:37:00 +0000</pubDate>
+      <pubDate>Sun, 01 Feb 2026 14:43:57 +0000</pubDate>
       <description><![CDATA[
 <h2>FSeq 0.1.92</h2>
-<h3>Test Release for Auto-Update Testing</h3>
-<ul>
-  <li>License persistence fix for ARM Macs</li>
-  <li>Testing auto-update workflow</li>
-</ul>
+<p>See GitHub release for details.</p>
 ]]></description>
-      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.92/FSeq_0.1.92_unsigned.dmg" sparkle:os="macos" sparkle:edSignature="" length="126000000" type="application/octet-stream" />
-      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.92/FSeq_0.1.92_Setup.exe" sparkle:os="windows" sparkle:edSignature="" sparkle:installerArguments="/SILENT" length="118000000" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.92/FSeq_0.1.92_unsigned.dmg" sparkle:os="macos" sparkle:edSignature="" length="126060879" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.92/FSeq_0.1.92_Setup.exe" sparkle:os="windows" sparkle:edSignature="" sparkle:installerArguments="/SILENT" length="118254645" type="application/octet-stream" />
     </item>
-
     <item>
       <title>Version 0.1.91</title>
       <sparkle:version>0.1.91</sparkle:version>
       <sparkle:shortVersionString>0.1.91</sparkle:shortVersionString>
       <pubDate>Sat, 01 Feb 2026 13:59:24 +0000</pubDate>
-      <description><![CDATA[
-<h2>FSeq 0.1.91</h2>
-<h3>Auto-Update Support</h3>
-<ul>
-  <li>Sparkle (macOS) and WinSparkle (Windows) integration</li>
-  <li>Tray icon badge when update available</li>
-  <li>Dynamic menu text for updates</li>
-</ul>
-]]></description>
+      <description>
+&lt;h2&gt;FSeq 0.1.91&lt;/h2&gt;
+&lt;h3&gt;Auto-Update Support&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sparkle (macOS) and WinSparkle (Windows) integration&lt;/li&gt;
+  &lt;li&gt;Tray icon badge when update available&lt;/li&gt;
+  &lt;li&gt;Dynamic menu text for updates&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.91/FSeq_0.1.91_unsigned.dmg" sparkle:os="macos" sparkle:edSignature="" length="126059660" type="application/octet-stream" />
       <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.91/FSeq_0.1.91_Setup.exe" sparkle:os="windows" sparkle:edSignature="" sparkle:installerArguments="/SILENT" length="118254239" type="application/octet-stream" />
     </item>
-
   </channel>
 </rss>
