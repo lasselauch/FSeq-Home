@@ -6,23 +6,42 @@
     <description>Most recent updates to FSeq</description>
     <language>en</language>
     <item>
+      <title>Version 0.1.93</title>
+      <sparkle:version>0.1.93</sparkle:version>
+      <sparkle:shortVersionString>0.1.93</sparkle:shortVersionString>
+      <pubDate>Wed, 04 Feb 2026 22:16:25 +0000</pubDate>
+      <description><![CDATA[
+<h2>What's New in FSeq 0.1.93</h2>
+<h3>Features</h3>
+<ul>
+  <li>(describe changes here)</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+  <li>(describe fixes here)</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.93/FSeq_0.1.93_unsigned.dmg" sparkle:os="macos" length="109803524" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.93/FSeq_0.1.93_Setup.exe" sparkle:os="windows" sparkle:installerArguments="/SILENT" length="119477235" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.1.91</title>
       <sparkle:version>0.1.91</sparkle:version>
       <sparkle:shortVersionString>0.1.91</sparkle:shortVersionString>
       <pubDate>Sun, 01 Feb 2026 21:36:58 +0000</pubDate>
-      <description><![CDATA[
-<h2>What's New in FSeq 0.1.91</h2>
-<h3>Bug Fixes</h3>
-<ul>
-  <li><strong>license</strong>: Add backward-compatible decryption for legacy key formats on ARM Macs</li>
-  <li><strong>updater</strong>: Use Sparkle 2.x API for macOS auto-updates</li>
-</ul>
-<h3>Features</h3>
-<ul>
-  <li><strong>updater</strong>: Auto-update support via Sparkle (macOS) and WinSparkle (Windows)</li>
-  <li><strong>tray</strong>: Tray icon badge and dynamic menu for available updates</li>
-</ul>
-]]></description>
+      <description>
+&lt;h2&gt;What's New in FSeq 0.1.91&lt;/h2&gt;
+&lt;h3&gt;Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;license&lt;/strong&gt;: Add backward-compatible decryption for legacy key formats on ARM Macs&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;updater&lt;/strong&gt;: Use Sparkle 2.x API for macOS auto-updates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;updater&lt;/strong&gt;: Auto-update support via Sparkle (macOS) and WinSparkle (Windows)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tray&lt;/strong&gt;: Tray icon badge and dynamic menu for available updates&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.91/FSeq_0.1.91_unsigned.dmg" sparkle:os="macos" length="125559194" type="application/octet-stream" />
       <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.91/FSeq_0.1.91_Setup.exe" sparkle:os="windows" sparkle:installerArguments="/SILENT" length="119477235" type="application/octet-stream" />
     </item>
