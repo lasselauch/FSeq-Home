@@ -9,7 +9,7 @@
       <title>Version 0.1.94</title>
       <sparkle:version>0.1.94</sparkle:version>
       <sparkle:shortVersionString>0.1.94</sparkle:shortVersionString>
-      <pubDate>Wed, 04 Feb 2026 22:24:55 +0000</pubDate>
+      <pubDate>Wed, 04 Feb 2026 22:38:35 +0000</pubDate>
       <description><![CDATA[
 <h2>What's New in FSeq 0.1.94</h2>
 <h3>Features</h3>
@@ -21,7 +21,7 @@
   <li>(describe fixes here)</li>
 </ul>
 ]]></description>
-      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.94/FSeq_0.1.94_unsigned.dmg" sparkle:os="macos" length="109809358" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.94/FSeq_0.1.94_unsigned.dmg" sparkle:os="macos" length="109793749" type="application/octet-stream" />
       <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.1.94/FSeq_0.1.94_Setup.exe" sparkle:os="windows" sparkle:installerArguments="/SILENT" length="119477235" type="application/octet-stream" />
     </item>
     <item>
