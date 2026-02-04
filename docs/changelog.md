@@ -2,6 +2,16 @@
 layout: changelog
 title: Changelog
 ---
+## __0.1.94__
+
+### __✨ New__
+#### (describe changes here)
+
+### __🐞 Fixes__
+#### (describe fixes here)
+
+---
+
 ## __0.1.93__
 
 ### __✨ New__
