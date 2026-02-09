@@ -50,6 +50,7 @@ title: Home
 			<div class="content">
 				<h3 class="text-bold">Other neat features....</h3>
 				<ul>
+				<li>Rename / Renumber image sequences</li>
 				<li>Create (YYMMDD) folder 👉 <span class="text-blue-gradient">"{{ site.time | date: "%y%m%d" }}"</span></li>
 				<li>Light/Dark mode</li>
 				<li>Simple <span class="text-orange-bold">BUT</span> useful Settings</li>
@@ -71,5 +72,21 @@ title: Home
 				<li><img style="padding-right:.5em;" src="assets/icons/light.svg" height="24px"><span class="label">Toggle Light/Dark</span></li>
 			</ul>
 		</section>
+	</div>
+</section>
+
+<!-- Unsigned Builds Notice -->
+<section id="unsigned" class="wrapper style1">
+	<div class="inner">
+		<div class="box">
+			<h3>First Launch on macOS</h3>
+			<p>FSeq is a free, independently distributed app. Since it isn't notarized through the Mac App Store, macOS may block it on first launch. To fix this, open Terminal and run:</p>
+			<pre><code>xattr -cr /Applications/FSeq.app</code></pre>
+			<p>Then right-click the app and choose <strong>Open</strong>. After the first launch, macOS remembers your choice and the app opens normally.</p>
+		</div>
+		<div class="box">
+			<h3>First Launch on Windows</h3>
+			<p>Windows SmartScreen may show a warning for independently distributed apps. Click <strong>More info</strong>, then <strong>Run anyway</strong> to launch FSeq. This only happens on the first launch.</p>
+		</div>
 	</div>
 </section>
