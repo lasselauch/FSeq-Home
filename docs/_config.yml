@@ -1,6 +1,6 @@
 # Site settings
 title:            FSeq
-version:          0.1.9
+version:          0.2.0
 email:            mail@getfseq.com
 description:      A sequence and file browser that just works!
 baseurl:          "" # the subpath of your site, e.g. /blog

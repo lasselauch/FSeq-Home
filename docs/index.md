@@ -76,17 +76,26 @@ title: Home
 </section>
 
 <!-- Unsigned Builds Notice -->
-<section id="unsigned" class="wrapper style1">
+<section id="unsigned" class="wrapper">
 	<div class="inner">
-		<div class="box">
-			<h3>First Launch on macOS</h3>
-			<p>FSeq is a free, independently distributed app. Since it isn't notarized through the Mac App Store, macOS may block it on first launch. To fix this, open Terminal and run:</p>
-			<pre><code>xattr -cr /Applications/FSeq.app</code></pre>
-			<p>Then right-click the app and choose <strong>Open</strong>. After the first launch, macOS remembers your choice and the app opens normally.</p>
-		</div>
-		<div class="box">
-			<h3>First Launch on Windows</h3>
-			<p>Windows SmartScreen may show a warning for independently distributed apps. Click <strong>More info</strong>, then <strong>Run anyway</strong> to launch FSeq. This only happens on the first launch.</p>
+		<p style="text-align: center;">FSeq is a free, independently distributed app, by a single developer and an Apple developer license costs money, so:</p>
+		<div class="row">
+			<div class="6u 12u(medium)">
+				<div class="box" style="background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%); color: #fff; border: none;">
+					<h3 style="color: #fff;">First Launch on macOS</h3>
+					<p>Since it isn't notarized through the Mac App Store, macOS may block it on first launch. To fix this, open <strong style="color: #F27011;">Terminal</strong> and run:</p>
+					<div style="display: flex; align-items: center; gap: 0.5em;">
+						<pre style="margin: 0; flex: 1; min-width: 0; overflow-x: auto;"><code style="border: none; background: rgba(0,0,0,0.2); color: #fff; white-space: nowrap;">xattr -cr /Applications/FSeq.app</code></pre>
+						<span onclick="navigator.clipboard.writeText('xattr -cr /Applications/FSeq.app');this.querySelector('i').className='fa fa-check';setTimeout(()=>this.querySelector('i').className='fa fa-clipboard',1500)" style="cursor: pointer; color: #fff; opacity: 0.6; font-size: 0.85em; flex-shrink: 0;" title="Copy to clipboard"><i class="fa fa-clipboard"></i></span>
+					</div>
+				</div>
+			</div>
+			<div class="6u 12u(medium)">
+				<div class="box" style="background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%); color: #fff; border: none;">
+					<h3 style="color: #fff;">First Launch on Windows</h3>
+					<p>Windows SmartScreen may show a warning for independently distributed apps. Click <strong style="color: #F27011;">More info</strong> > <strong style="color: #F27011;">Run anyway</strong> to launch FSeq. This only happens on the first launch.</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
