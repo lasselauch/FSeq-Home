@@ -12,13 +12,13 @@
       <pubDate>Sun, 09 Feb 2026 00:00:00 +0000</pubDate>
       <description><![CDATA[
 <h2>What's New in FSeq 0.2.0</h2>
-<h3>New</h3>
+<h3>✨ New</h3>
 <ul>
   <li><strong>Auto-update system</strong> — Check for updates and download them automatically. Powered by Sparkle 2.x (macOS) and WinSparkle (Windows) with EdDSA signing. Available updates show as a badge on the tray icon.</li>
   <li><strong>Renamer redesign</strong> — Complete UI overhaul inspired by Windows PowerRename. Vertical split layout with token-based patterns ($name, $ext, $date), visual case buttons, per-item checkboxes, and persistent undo history with Ctrl+Z.</li>
   <li><strong>Improved license framework</strong></li>
 </ul>
-<h3>Improvements</h3>
+<h3>💎 Improvements</h3>
 <ul>
   <li>PySide upgrade for future compatibility</li>
 </ul>
@@ -31,7 +31,7 @@
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       <description><![CDATA[
 <h2>What's New in FSeq 0.1.9</h2>
-<h3>New</h3>
+<h3>✨ New</h3>
 <ul>
   <li>Added macOS version</li>
 </ul>
@@ -44,16 +44,16 @@
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       <description><![CDATA[
 <h2>What's New in FSeq 0.1.8</h2>
-<h3>New</h3>
+<h3>✨ New</h3>
 <ul>
   <li>Release Candidate</li>
   <li>Website</li>
 </ul>
-<h3>Improvements</h3>
+<h3>💎 Improvements</h3>
 <ul>
   <li>Overall structure</li>
 </ul>
-<h3>Bug Fixes</h3>
+<h3>🐞 Bug Fixes</h3>
 <ul>
   <li>Small bug fixes</li>
 </ul>
