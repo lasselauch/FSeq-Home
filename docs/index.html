@@ -47,7 +47,7 @@
 		<h1><a href="#features" class="small-shadow">
 			<img src="assets/icons/FSeq.png" width="128" height="128" alt="FSeq" style="display: block; margin: 0 auto;">
 		</a></h1>
-		<h2><u class="text-orange">Don't waste time searching</u> through hundreds of folders.<br>
+		<h2><u class="text-orange-gradient" style="font-style: oblique;">Don't waste time searching</u> through hundreds of folders.<br>
 		Have the files you're looking for under your fingertips.</h2>
 	</header>
 </section>
@@ -64,7 +64,7 @@
 			</div>
 			<p style="margin-top: 1.5em;"><b>Search through multiple subfolders for image sequences.</b> Detect missing or broken sequences and import/open them directly in your favorite tool.</p>
 
-			<h3 class="text-orange-bold">Recursive and filtered search...</h3>
+			<h3 class="text-orange-gradient"><strong>Recursive and filtered search...</strong></h3>
 			<div class="image small-shadow">
 				<video width="100%" preload="auto" muted playsinline autoplay loop>
 					<source src="assets/videos/fseq-filter.mp4" type="video/mp4">
@@ -74,11 +74,16 @@
 		</div>
 
 		<section class="spotlight">
-			<div class="image"><img src="assets/images/fseq-export.png" alt="FSeq export feature"></div>
+			<div class="image">
+				<div class="hero-images">
+					<img class="hero-crossfade" src="assets/images/fseq-context-menu-light.png" alt="FSeq context menu">
+					<img class="hero-crossfade hero-crossfade-alt" src="assets/images/fseq-context-menu-dark.png" alt="FSeq context menu">
+				</div>
+			</div>
 			<div class="content">
 				<h3 class="text-bold"><span class="text-blue-gradient">Open / Edit / Import</span> to your tools</h3>
 				<p>Open files in their standard program, <span class="text-bold">copy/paste sequences</span> into After Effects/Nuke or view directly in your favorite viewer.<br>
-				<span class="text-orange-bold">FSeq got you covered.</span></p>
+				<span class="text-orange-gradient"><strong>FSeq got you covered.</strong></span></p>
 			</div>
 		</section>
 
@@ -106,7 +111,21 @@
 			</ul>
 		</section>
 
-		<div class="image small-shadow"><img src="assets/images/fseq-settings.gif" alt="FSeq settings"></div>
+		<section class="spotlight" style="flex-direction: column; align-items: center;">
+			<h3 class="text-bold"><span class="text-blue-gradient">Rename Sequences</span> &amp; <span class="text-orange-gradient">Files</span></h3>
+			<div class="image small-shadow" style="width: 100%; max-width: 42em;"><img src="assets/images/fseq-renamer.png" alt="FSeq Rename Sequences"></div>
+			<div class="content" style="width: 100%; text-align: center;">
+				<p style="margin-top: 1.5em;">Batch rename your image sequences and files with a powerful pattern-based renamer.</p>
+				<ul style="list-style: none; padding: 0; margin: 0; font-size: 0.9em; color: var(--fg-bold);">
+					<li style="padding: 0.3em 0;"><b class="text-blue-gradient">Rename Pattern</b> — <code>$name</code> <code>$ext</code> <code>$n</code> <code>$date</code> <code>$time</code> <code>$parent</code></li>
+					<li style="padding: 0.3em 0;"><b class="text-blue-gradient">Text Formatting</b> — Uppercase, lowercase, title case</li>
+					<li style="padding: 0.3em 0;"><b class="text-blue-gradient">Search &amp; Replace</b> — Find and replace with wildcard support</li>
+					<li style="padding: 0.3em 0;"><b class="text-blue-gradient">Counter</b> — Start number, digit padding, frame offset</li>
+					<li style="padding: 0.3em 0;"><b class="text-blue-gradient">Cleanup</b> — Remove special characters &amp; accents</li>
+					<li style="padding: 0.3em 0;"><b class="text-orange-gradient">Live Preview</b> — See changes before applying</li>
+				</ul>
+			</div>
+		</section>
 
 
 	</div>
@@ -123,7 +142,7 @@
 			<div>
 				<div class="box" style="background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%); color: #fff; border: none;">
 					<h3 style="color: #fff;">First Launch on macOS</h3>
-					<p>Since it isn't notarized through the Mac App Store, macOS may block it on first launch. To fix this, open <strong style="color: var(--orange-light);">Terminal</strong> and run:</p>
+					<p>Since it isn't notarized through the Mac App Store, macOS may block it on first launch. To fix this, open <strong class="text-orange-gradient">Terminal</strong> and run:</p>
 					<div style="display: flex; align-items: center; gap: 0.5em;">
 						<pre style="margin: 0; flex: 1; min-width: 0; overflow-x: auto;"><code style="border: none; background: rgba(0,0,0,0.33); color: #fff; white-space: nowrap;">xattr -cr /Applications/FSeq.app</code></pre>
 						<span class="copy-btn" tooltip="Copy to clipboard" onclick="navigator.clipboard.writeText('xattr -cr /Applications/FSeq.app');this.setAttribute('tooltip','Copied!');this.style.opacity='1';var s=this;setTimeout(function(){s.style.opacity='';},1000)" onmouseover="this.setAttribute('tooltip','Copy to clipboard')"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 9H11C9.895 9 9 9.895 9 11V20C9 21.105 9.895 22 11 22H20C21.105 22 22 21.105 22 20V11C22 9.895 21.105 9 20 9Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 15H4C3.47 15 2.96 14.789 2.586 14.414C2.211 14.039 2 13.53 2 13V4C2 3.47 2.211 2.961 2.586 2.586C2.961 2.211 3.47 2 4 2H13C13.53 2 14.039 2.211 14.414 2.586C14.789 2.961 15 3.47 15 4V5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
@@ -133,7 +152,7 @@
 			<div>
 				<div class="box" style="background: linear-gradient(180deg, #66BBFF 0%, #0C43D1 100%); color: #fff; border: none;">
 					<h3 style="color: #fff;">First Launch on Windows</h3>
-					<p>Windows SmartScreen may show a warning for independently distributed apps. Click <strong style="color: var(--orange-light);"> More info > Run anyway</strong> to launch FSeq. This only happens on the first launch.</p>
+					<p>Windows SmartScreen may show a warning for independently distributed apps. Click <strong class="text-orange-gradient"> More info > Run anyway</strong> to launch FSeq. This only happens on the first launch.</p>
 				</div>
 			</div>
 		</div>
@@ -144,7 +163,7 @@
 <section class="wrapper style2 special">
 	<header class="major">
 		<h2>A sequence and file browser <u class="text-blue-gradient">that just works!</u></h2>
-		<p>Get started today, <span class="text-orange">for free.</span></p>
+		<p>Get started today, <span class="text-orange-gradient">for free.</span></p>
 	</header>
 	<ul class="actions">
 		<li><a href="https://lasselauch.lemonsqueezy.com/checkout/buy/97df2b03-e6e2-4af8-ac66-f3286a75501c?media=0&logo=0&embed=1" class="button special lemonsqueezy-button"><svg class="icon-download" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 15V19C21 19.53 20.789 20.039 20.414 20.414C20.039 20.789 19.53 21 19 21H5C4.47 21 3.961 20.789 3.586 20.414C3.211 20.039 3 19.53 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Get FSeq</a></li>
