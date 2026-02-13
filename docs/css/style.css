@@ -492,6 +492,23 @@ hr {
 }
 .image.phone img { border-radius: 0; }
 
+/* ---- Hero Crossfade ---- */
+.hero-images {
+	position: relative;
+}
+@keyframes heroFade {
+	0%, 40% { opacity: 0; }
+	50%, 90% { opacity: 1; }
+	100%     { opacity: 0; }
+}
+.hero-crossfade-alt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	animation: heroFade 10s ease-in-out infinite;
+}
+
 /* ---- Footer ---- */
 #footer {
 	background: var(--bg-footer);
