@@ -252,18 +252,21 @@ hr {
 }
 
 #header h1 {
-	font-size: 3.25em;
+	font-size: 5em;
 	font-weight: bold;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.15em;
 	color: #fff;
+	letter-spacing: -0.05em;
+	line-height: 1.15;
 }
 #header h1 a { color: #fff; border-bottom: none; }
 
 #header h2 {
-	font-size: 1.5em;
-	line-height: 1.35;
+	font-size: 1.75em;
+	line-height: 1.15;
 	color: #fff;
 	font-weight: normal;
+	letter-spacing: -0.05em;
 }
 #header h2 u { text-decoration-color: rgba(255,255,255,0.5); }
 
@@ -721,8 +724,9 @@ hr {
 @media screen and (max-width: 736px) {
 
 	#header { padding: 3em 1.5em 1em; }
-	#header h1 { font-size: 2em; }
-	#header h2, #header p { font-size: 1em; line-height: inherit; }
+	#header h1 { font-size: 3em; }
+	#header h2, #header p { font-size: 1em; line-height: 1.15; }
+	#header h2 br { display: none; }
 	#header .image { font-size: 0.6em; max-width: 60vw; }
 	#header .image.phone .inner { opacity: 0; }
 
