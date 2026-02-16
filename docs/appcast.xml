@@ -9,55 +9,61 @@
       <title>Version 0.2.0</title>
       <sparkle:version>0.2.0</sparkle:version>
       <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-      <pubDate>Sun, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Feb 2026 08:33:53 +0000</pubDate>
       <description><![CDATA[
 <h2>What's New in FSeq 0.2.0</h2>
 <h3>✨ New</h3>
 <ul>
-  <li><strong>Auto-update system</strong> — Check for updates and download them automatically. Powered by Sparkle 2.x (macOS) and WinSparkle (Windows) with EdDSA signing. Available updates show as a badge on the tray icon.</li>
-  <li><strong>Renamer redesign</strong> — Complete UI overhaul inspired by Windows PowerRename. Vertical split layout with token-based patterns ($name, $ext, $date), visual case buttons, per-item checkboxes, and persistent undo history with Ctrl+Z.</li>
-  <li><strong>Improved license framework</strong></li>
+  <li><strong>Auto-update system</strong>: Check for updates and download them automatically. Powered by Sparkle 2.x (macOS) and WinSparkle (Windows) with EdDSA signing. Available updates show as a badge on the tray icon.</li>
+  <li><strong>Renamer redesign</strong>: Complete UI overhaul inspired by Windows PowerRename. Vertical split layout with token-based patterns ($name, $ext, $date), visual case buttons, per-item checkboxes, and persistent undo history with Ctrl+Z.</li>
+  <li><strong>Right-Click-Menu</strong>: Rename &amp; Delete Sequences/Files</li>
 </ul>
 <h3>💎 Improvements</h3>
 <ul>
-  <li>PySide upgrade for future compatibility</li>
+  <li><strong>ESC to Abort</strong>: Abort all sequence and file searches</li>
+  <li><strong>Drag and Drop</strong>: Folder-drag from outside to change rootfolder. Moving/Copying files and sequences out of FSeq</li>
+  <li><strong>PySide upgrade</strong>: For future compatibility</li>
+  <li><strong>License framework</strong>: Improved</li>
+  <li>Undo for rename and delete (guided Trash restore)</li>
 </ul>
 ]]></description>
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.2.0/FSeq_0.2.0.dmg" sparkle:os="macos" sparkle:edSignature="V0A/0GKI2XZzVTflwAQ7MzEblfCYC8BEAZVUfR5gGjjt2nGS2ucMyOsShgLopmeqlG7EZmmNtMNNKb78p+6wBg==" length="50681205" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.2.0/FSeq_0.2.0.exe" sparkle:os="windows" sparkle:installerArguments="/SILENT" length="59088558" type="application/octet-stream" />
     </item>
     <item>
       <title>Version 0.1.9</title>
       <sparkle:version>0.1.9</sparkle:version>
       <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<h2>What's New in FSeq 0.1.9</h2>
-<h3>✨ New</h3>
-<ul>
-  <li>Added macOS version</li>
-</ul>
-]]></description>
+      <description>
+&lt;h2&gt;What's New in FSeq 0.1.9&lt;/h2&gt;
+&lt;h3&gt;✨ New&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added macOS version&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     <item>
       <title>Version 0.1.8</title>
       <sparkle:version>0.1.8</sparkle:version>
       <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<h2>What's New in FSeq 0.1.8</h2>
-<h3>✨ New</h3>
-<ul>
-  <li>Release Candidate</li>
-  <li>Website</li>
-</ul>
-<h3>💎 Improvements</h3>
-<ul>
-  <li>Overall structure</li>
-</ul>
-<h3>🐞 Bug Fixes</h3>
-<ul>
-  <li>Small bug fixes</li>
-</ul>
-]]></description>
+      <description>
+&lt;h2&gt;What's New in FSeq 0.1.8&lt;/h2&gt;
+&lt;h3&gt;✨ New&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Release Candidate&lt;/li&gt;
+  &lt;li&gt;Website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;💎 Improvements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Overall structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🐞 Bug Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Small bug fixes&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
   </channel>
 </rss>
