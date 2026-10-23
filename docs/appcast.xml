@@ -6,6 +6,29 @@
     <description>Most recent updates to FSeq</description>
     <language>en</language>
     <item>
+      <title>Version 0.2.1</title>
+      <sparkle:version>0.2.1</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <pubDate>Fri, 23 Oct 2026 11:14:07 +0000</pubDate>
+      <description><![CDATA[
+<h2>What's New in FSeq 0.2.1</h2>
+<h3>✨ New</h3>
+<ul>
+  <li><strong>Convert to MP4</strong>: Right-click sequences to convert to MP4 via ffmpeg. Converted files are revealed in Finder/Explorer automatically.</li>
+  <li><strong>Convert to GIF</strong>: Right-click MP4 files to convert to GIF with customizable settings dialog and ffmpeg logging.</li>
+</ul>
+<h3>🐞 Fixes</h3>
+<ul>
+  <li><strong>Send to After Effects</strong>: Simplified dispatch to mirror the proven pattern from AEC4D Pro. Handle cloud-streaming source folders (Google Drive for Desktop, OneDrive Files On-Demand, Dropbox Smart Sync, etc.) natively via its own import path.</li>
+  <li>Fixed errors when converting or deleting files</li>
+  <li>Fixed a crash on startup for trial licenses</li>
+  <li><strong>Windows updates</strong>: Updates now install in the background and restart FSeq automatically, without the setup wizard.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.2.1/FSeq_0.2.1.dmg" sparkle:os="macos" sparkle:edSignature="t6wPsmLKLYnqdr7lksuGttvvtggxji2ZivgkZaJ0PByg22lO3GxyfHlCIdneU6OHskGB55Z2aa1taiv30ipWAg==" length="50921350" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.2.1/FSeq_0.2.1.exe" sparkle:os="windows" sparkle:installerArguments="/SILENT" length="62280994" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.2.0</title>
       <sparkle:version>0.2.0</sparkle:version>
       <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
