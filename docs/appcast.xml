@@ -6,6 +6,22 @@
     <description>Most recent updates to FSeq</description>
     <language>en</language>
     <item>
+      <title>Version 0.2.2</title>
+      <sparkle:version>0.2.2</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <pubDate>Mon, 26 Oct 2026 16:53:34 +0000</pubDate>
+      <description><![CDATA[
+<h2>What's New in FSeq 0.2.2</h2>
+<h3>🐞 Fixes</h3>
+<ul>
+  <li><strong>Import to After Effects</strong>: File and folder names with Chinese (or any other non-English) characters now import correctly instead of arriving garbled in After Effects.</li>
+  <li><strong>Convert to MP4/GIF</strong>: Opening the convert dialog for files with non-English names no longer risks an error on Windows.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.2.2/FSeq_0.2.2.dmg" sparkle:os="macos" sparkle:edSignature="Q2oUT+ZDsp6WqRRun5DT1YkWWH+E78gn3gnTBDy0ryY2HQnhss+cNHuKQ2poByw4hxVBcCzIY/qEIKmUJBw9AQ==" length="50922984" type="application/octet-stream" />
+      <enclosure url="https://github.com/lasselauch/FSeq-Home/releases/download/v0.2.2/FSeq_0.2.2.exe" sparkle:os="windows" sparkle:installerArguments="/SILENT" length="62281173" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.2.1</title>
       <sparkle:version>0.2.1</sparkle:version>
       <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
